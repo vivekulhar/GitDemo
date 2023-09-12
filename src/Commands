@@ -11,3 +11,20 @@ git config -g user.email sandeep2official@gmail.com
 
 --branching
 git branch
+git branch <branchName>
+git checkout <branchName>
+git merge <branchName>
+
+master -> fB
+git checkout -b branchName || create the branch and move to the new branch
+
+
+
+
+We can connect our local git repo to multiple remote repos
+In general its only 1 remote repo per local repo
+
+"name of remote repo[key]" -> "link"
+
+key -> origin
+
