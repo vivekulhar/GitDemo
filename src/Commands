@@ -28,3 +28,8 @@ In general its only 1 remote repo per local repo
 
 key -> origin
 
+
+--git remote
+git remote add origin <link>
+git remote add <key> <link>
+git push origin <branchName>
