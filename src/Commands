@@ -9,3 +9,5 @@ git config user.email
 git config -g user.name sndpoffcl
 git config -g user.email sandeep2official@gmail.com
 
+--branching
+git branch
