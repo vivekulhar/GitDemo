@@ -2,9 +2,20 @@ public class Car {
     private int price;
     private int engineSize;
 
-    public Car(int price, int engineSize) {
+    private int maxSpeed;
+
+    public Car(int price, int engineSize, int maxSpeed) {
         this.price = price;
         this.engineSize = engineSize;
+        this.maxSpeed = maxSpeed;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
     }
 
     public int getPrice() {
@@ -28,6 +39,7 @@ public class Car {
         return "Car{" +
                 "price=" + price +
                 ", engineSize=" + engineSize +
+                ", maxSpeed=" + maxSpeed +
                 '}';
     }
 }
